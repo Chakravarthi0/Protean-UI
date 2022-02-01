@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge Component</title>
+    <script
+      src="https://kit.fontawesome.com/1ca0c5a7ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="badges.css" />
+  </head>
+  <body>
+    <div class="flex-container-vertical">
+      <h3>Badge on Text</h3>
+      <ul>
+        <li>Text with small badge</li>
+        <li>Text with large badge</li>
+      </ul>
+    </div>
+
+    <div class="flex-container">
+      <p class="badge-container">
+        Text with badge
+        <span class="badge">4</span>
+      </p>
+      <p class="badge-container">
+        Text with badge
+        <span class="large-badge">4</span>
+      </p>
+    </div>
+
+    <div class="flex-container-vertical">
+      <h3>Badge on icon</h3>
+      <ol>
+        <li>Icon with small badge</li>
+        <li>Icon with large badge</li>
+      </ol>
+    </div>
+
+    <div class="flex-container">
+      <i class="far fa-bell badge-container">
+        <span class="badge">6</span>
+      </i>
+
+      <i class="far fa-bell badge-container">
+        <span class="large-badge">7</span>
+      </i>
+    </div>
+
+    <div class="flex-container">
+      <h3>Badge on avatars</h3>
+    </div>
+
+    <div class="flex-container">
+      <p class="badge-container">
+        <img class="av-xs" src="../avatar/assets/img-1.jpg" alt="image-1" />
+        <span class="av-xs-badge"></span>
+      </p>
+
+      <p class="badge-container">
+        <img class="av-sm" src="../avatar/assets/img-1.jpg" alt="image-1" />
+        <span class="av-sm-badge"></span>
+      </p>
+
+      <p class="badge-container">
+        <img class="av-md" src="../avatar/assets/img-1.jpg" alt="image-1" />
+        <span class="av-md-badge bg-success"></span>
+      </p>
+
+      <p class="badge-container">
+        <img class="av-lg" src="../avatar/assets/img-1.jpg" alt="image-1" />
+        <span class="av-lg-badge bg-danger"></span>
+      </p>
+    </div>
+  </body>
+  <style>
+    div {
+      margin: 5rem;
+    }
+  </style>
+  <script src="./main.js"></script>
+</html>
