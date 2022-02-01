@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #50a8eb;
+  /* --primary-color: #62a9df; */
+  --secondary-color: #b86f52;
+  --black: #070707;
+  --white: #f0f0f0;
+  --warn: #f1c404;
+  --danger: #ef233c;
+  --success: #00a878;
+  --gray: #959598;
+
+  --primary-dark: #3775a4;
+  --secondary-dark: #804731;
+  --warn-dark: #c2a00d;
+  --danger-dark: #ba2e3f;
+  --success-dark: #188464;
+  --gray-dark: #6d6d70;
+
+  --primary-light: #84bae4;
+  --secondary-light: #b88d7c;
+  --warn-light: #f0d351;
+  --danger-light: #e95768;
+  --success-light: #3ac59e;
+  --gray-light: #c9c9ce;
+
+  --purple: #d972ff;
+  --yellow: #fff275;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.flex-container-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
