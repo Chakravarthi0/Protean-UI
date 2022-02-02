@@ -1,0 +1,20 @@
+@import url("../../default.css");
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: 10rem;
+    max-width: fit-content;
+    text-align: center;
+    color: var(--black);
+    border-radius: 0.5rem;
+}
+
+/* .alert-primary{
+    color: var(--primary-dark);
+    background-color: #cce5ff;
+    border-color: #b8daff;
+} */
