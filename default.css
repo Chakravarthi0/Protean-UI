@@ -33,6 +33,36 @@
   --yellow: #fff275;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.08rem;
+}
+
+h4,
+p,
+li {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.28rem;
+}
+
+h6 {
+  font-size: 11.12rem;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -49,4 +79,3 @@
   gap: 2rem;
   flex-wrap: wrap;
 }
-
