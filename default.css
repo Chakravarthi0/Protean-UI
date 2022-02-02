@@ -1,3 +1,5 @@
+@import url("./components//button/button.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@
   /* --primary-color: #62a9df; */
   --secondary-color: #b86f52;
   --black: #070707;
+  --black-2: #4e4b4b;
   --white: #f0f0f0;
   --warn: #f1c404;
   --danger: #ef233c;
@@ -24,18 +27,84 @@
 
   --primary-light: #84bae4;
   --secondary-light: #b88d7c;
-  --warn-light: #f0d351;
+  --warn-light: #e7cf66;
   --danger-light: #e95768;
-  --success-light: #3ac59e;
+  --success-light: #4ac7a4;
   --gray-light: #c9c9ce;
 
   --purple: #d972ff;
   --yellow: #fff275;
 }
 
-html {
+html{
   font-size: 62.5%;
+  background-color: var(--white);
 }
+
+.bg-primary{
+  background-color: var(--primary-color);
+}
+
+.bg-secondary{
+  background-color: var(--secondary-color);
+}
+
+.bg-gray{
+  background-color: var(--gray);
+}
+
+.bg-black{
+  background-color: var(--black);
+}
+
+.bg-white{
+  background-color: var(--white);
+}
+
+.bg-warn{
+  background-color: var(--warn);
+}
+
+.bg-danger{
+  background-color: var(--danger);
+}
+
+.bg-success{
+  background-color: var(--success);
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+
+.gray {
+  color: var(--gray);
+}
+
+.black {
+  color: var(--black);
+}
+
+.white {
+  color: var(--white);
+}
+
+.warn {
+  color: var(--warn);
+}
+
+.danger {
+  color: var(--danger);
+}
+
+.success {
+  color: var(--success);
+}
+
 
 h1 {
   font-size: 3.2rem;
