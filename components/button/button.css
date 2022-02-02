@@ -5,29 +5,29 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 7px;
   cursor: pointer;
   border-radius: 2px;
-  font-size: 1.3rem;
-  min-width: 7rem;
+  font-size: 1.6rem;
+  min-width: 9rem;
   border: none;
 }
 
 .btn-sm{
-    font-size: 1.1rem;
-    padding: 3.5px;
-    min-width: 5rem;
+    font-size: 1.3rem;
+    padding: 5px;
+    min-width: 7rem;
 }
 
 .btn-lg{
-    font-size: 1.6rem;
-    padding: 7px;
-    min-width: 9rem;
+    font-size: 2rem;
+    padding: 9px;
+    min-width: 11rem;
 }
 
 .btn-float{
-    min-width: 4rem;
-    min-height: 4rem;
+    min-width: 5rem;
+    min-height: 5rem;
     border-radius: 50%;
 }
 
@@ -102,8 +102,8 @@
 
 .btn-primary-ol{
     color: var(--primary-color);
-    outline: 1.75px solid var(--primary-color);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--primary-color);
+    outline-offset: -2.25px;
 }
 
 .btn-primary-ol:hover{
@@ -113,8 +113,8 @@
 
 .btn-secondary-ol{
     color: var(--secondary-color);
-    outline: 1.75px solid var(--secondary-color);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--secondary-color);
+    outline-offset: -2.25px;
 }
 
 .btn-secondary-ol:hover{
@@ -123,8 +123,8 @@
 }
 .btn-teritary-ol{
     color: var(--gray);
-    outline: 1.75px solid var(--gray);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--gray);
+    outline-offset: -2.25px;
 }
 
 .btn-teritary-ol:hover{
@@ -134,8 +134,8 @@
 
 .btn-warn-ol{
     color: var(--warn);
-    outline: 1.75px solid var(--warn);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--warn);
+    outline-offset: -2.25px;
 }
 
 .btn-warn-ol:hover{
@@ -145,8 +145,8 @@
 
 .btn-danger-ol{
     color: var(--danger);
-    outline: 1.75px solid var(--danger);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--danger);
+    outline-offset: -2.25px;
 }
 
 .btn-danger-ol:hover{
@@ -156,8 +156,8 @@
 
 .btn-success-ol{
     color: var(--success);
-    outline: 1.75px solid var(--success);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--success);
+    outline-offset: -2.25px;
 }
 
 .btn-success-ol:hover{
@@ -167,8 +167,8 @@
 
 .btn-dark-ol{
     color: var(--black);
-    outline: 1.75px solid var(--black);
-    outline-offset: -1.75px;
+    outline: 2.25px solid var(--black);
+    outline-offset: -2.25px;
 }
 
 .btn-dark-ol:hover{
