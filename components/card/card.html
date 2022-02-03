@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Component</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="card.css" />
+  </head>
+  <body>
+    <div id="content" class="flex-container-vertical">
+      <h3>Card</h3>
+      <ul>
+        <li>Vertical card</li>
+        <li>Horizontal card</li>
+        <li>Cards with badge</li>
+        <li>Card with dismiss</li>
+        <li>Card with text overlay</li>
+        <li>Card with shadow</li>
+        <li>Text only card</li>
+      </ul>
+    </div>
+    <div class="flex-container">
+      
+      <!-- Horizontal -->
+
+      <div class="card">
+        <p class="card-title">Title goes here</p>
+        <p class="card-subtitle">SubText</p>
+        <img class="card-img" src="https://picsum.photos/300/200" />
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+            <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+      </div>
+
+      <!-- vertical -->
+
+      <div class="card">
+        <div class="card-horizontal-container">
+          <img class="card-img-horizontal" src="https://picsum.photos/300/200" />
+          <div class="">
+            <p class="card-title">Title goes here</p>
+            <p class="card-subtitle">SubText</p>
+          </div>
+        </div>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+          <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+      </div>
+
+      <!-- w/ badges -->
+
+      <div class="card">
+        <img class="card-img-bordered" src="https://picsum.photos/300/200" />
+        <p class="card-title">Title goes here</p>
+        <p class="card-subtitle">SubText</p>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+          <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+        <div class="tag">New</div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-bordered" src="https://picsum.photos/300/200" />
+        <p class="card-title">Title goes here</p>
+        <p class="card-subtitle">SubText</p>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+          <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+        <div class="tag tag-purple">Sale</div>
+      </div>
+
+      <!--  -->
+
+      <div class="card">
+        <img class="card-img-bordered" src="https://picsum.photos/300/200" />
+        <p class="card-title">Title goes here</p>
+        <p class="card-subtitle">SubText</p>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+          <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+          <i class="dismiss-icon material-icons">close</i>
+      </div>
+
+      <!--  -->
+
+      <div class="card">
+        <div class="overlay">
+          <img class="card-img-bordered" src="https://picsum.photos/300/200" />
+          <div class="overlay-content">
+            <p class="card-title">Title goes here</p>
+            <p class="card-subtitle">SubText</p>
+          </div>
+        </div>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+          <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+      </div>
+
+      <!-- shadow -->
+
+      <div class="card card-bordered">
+        <p class="card-title">Title goes here</p>
+        <p class="card-subtitle">SubText</p>
+        <img class="card-img" src="https://picsum.photos/300/200" />
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+        <div class="card-actions">
+          <button class="btn btn-primary">Read</button>
+          <button class="btn btn-secondary">Button</button>
+          <i class="card-icon material-icons">favorite_border</i>
+            <i class="card-icon material-icons">share</i>
+            <i class="card-icon material-icons">more_vert</i>
+        </div>
+      </div>
+
+      <!-- Text only -->
+
+      <div class="card">
+        <p class="card-title">Title goes here</p>
+        <p class="card-subtitle">SubText</p>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi in
+          consequuntur quis.
+        </p>
+      </div>
+
+    </div>
+  </body>
+  <style>
+      #content{
+          margin: 5rem;
+      }
+  </style>
+</html>
