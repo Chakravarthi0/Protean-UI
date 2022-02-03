@@ -1,25 +1,26 @@
 @import url("../../default.css");
 
+.av{
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .av-xs {
   height: 4rem;
   width: 4rem;
-  border-radius: 50%;
 }
 
 .av-sm {
   height: 6.4rem;
   width: 6.4rem;
-  border-radius: 50%;
 }
 
 .av-md {
   height: 9.6rem;
   width: 9.6rem;
-  border-radius: 50%;
 }
 
 .av-lg {
   height: 12rem;
   width: 12rem;
-  border-radius: 50%;
 }
