@@ -1,0 +1,111 @@
+@import url("../../default.css");
+@import url("../button/button.css");
+
+.card {
+  background-color: var(--white-pure);
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 1rem;
+  height: max-content;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.card-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.card-subtitle {
+  font-size: 1.8rem;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-img-bordered {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+}
+
+.card-description {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.overlay {
+  position: relative;
+  width: 100%;
+}
+
+.overlay-content {
+  position: absolute;
+  color: var(--white-pure);
+  bottom: 1rem;
+  left: 0;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card-icon {
+  background-color: var(--white-pure);
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.card-icon:hover {
+  background-color: var(--gray-light);
+}
+
+.tag {
+  position: absolute;
+  background-color: var(--yellow);
+  font-size: 1.8rem;
+  padding: 4px 1rem 4px 4px;
+  right: 0;
+  top: 2rem;
+}
+
+.tag-purple {
+  background-color: var(--purple);
+  color: var(--white-pure);
+}
+
+.tag-mid {
+  top: 25%;
+}
+
+.dismiss-icon {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  cursor: pointer;
+  color: var(--white-pure);
+  background-color: var(--black-pure);
+  border-radius: 50%;
+  font-size: 2.5rem;
+}
+
+.card-horizontal-container {
+  display: flex;
+}
+
+.card-img-horizontal {
+  max-width: 30%;
+}
+
+.card-bordered {
+  box-shadow: var(--box-shadow);
+}
