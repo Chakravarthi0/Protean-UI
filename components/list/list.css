@@ -1,0 +1,23 @@
+@import url("../../default.css");
+@import url("../avatar/avatar.css");
+@import url("../text_utilities/text_utilities.css");
+
+.list-head{
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.list-border{
+    border: 2px solid var(--black);
+    border-bottom: none;
+}
+
+.list-border > *{
+    border-bottom: 2px solid var(--black);
+}
+
+.list > *{
+    list-style-type: none;
+    padding: 7px;
+}
