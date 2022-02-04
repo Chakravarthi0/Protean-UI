@@ -1,0 +1,33 @@
+@import url("../../default.css");
+@import url("../../components/button/button.css");
+@import url("../../components/text_utilities/text_utilities.css");
+@import url("../../components/list/list.css");
+
+.modal {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: var(--white-pure);
+  width: fit-content;
+  max-width: 35rem;
+}
+
+.modal-actions {
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--modal-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-open-btn,
+.modal-close-btn {
+  cursor: pointer;
+}
