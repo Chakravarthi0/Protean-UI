@@ -1,0 +1,19 @@
+@import url("../../default.css");
+@import url("../../components/list/list.css");
+
+.nav-logo {
+  cursor: pointer;
+}
+
+.navbar-container {
+  background-color: var(--white-pure);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10%;
+}
+
+.nav-links {
+  display: flex;
+}
