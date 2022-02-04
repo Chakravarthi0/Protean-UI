@@ -1,26 +1,26 @@
 @import url("../../default.css");
 
-.av{
+.avatar{
   border-radius: 50%;
   object-fit: cover;
 }
 
-.av-xs {
+.avatar-xs {
   height: 4rem;
   width: 4rem;
 }
 
-.av-sm {
+.avatar-sm {
   height: 6.4rem;
   width: 6.4rem;
 }
 
-.av-md {
+.avatar-md {
   height: 9.6rem;
   width: 9.6rem;
 }
 
-.av-lg {
+.avatar-lg {
   height: 12rem;
   width: 12rem;
 }
