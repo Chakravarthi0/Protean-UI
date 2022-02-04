@@ -1,0 +1,21 @@
+@import url("../../default.css");
+
+.text-center{
+    text-align: center;
+}
+
+.text-left {
+    text-align: start;
+}
+
+.text-right {
+    text-align: end;
+}
+
+.text-small{
+    font-size: 1.3rem;
+}
+
+.text-large{
+    font-size: 1.9rem;
+}

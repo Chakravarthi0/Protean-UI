@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List component</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    
+    <div class="flex-container-vertical">
+
+        <h2 class="text-center">Lists</h2>
+
+        <h3 class="text-center">Normal list</h3>
+
+        <ul class="list dummy-container">
+            <p class="list-head">List</p>
+            <li>Lorem ipsum dolor</li>
+            <li>ommodi exercitationem quibusdam praesentium quos error! Sed consequatur, ab necessitatibus rem</li>
+            <li>sit amet consectetur adipisicing elit.</li>
+            <li> Quisquam accusantium, facilis quasi </li>
+        </ul>
+
+        <h3 class="text-center">Normal list with border</h3>
+
+        <ul class="list list-border dummy-container">
+            <p class="list-head">List</p>
+            <li>Lorem ipsum dolor</li>
+            <li>ommodi exercitationem quibusdam praesentium quos error! Sed consequatur, ab necessitatibus rem</li>
+            <li>sit amet consectetur adipisicing elit.</li>
+            <li> Quisquam accusantium, facilis quasi </li>
+        </ul>
+    
+
+        <h3 class="text-center">Notification list</h3>
+
+        <ul class="list bg-white-pure dummy-container">
+            <p class="list-head bg-black white-pure">Notifications</p>
+            <li class="flex">
+                <img class="avatar avatar-xs" src="https://picsum.photos/400" >
+                <div class="flex flex-col">
+                    <p>Alice commented on your post</p>
+                <span class="gray-dark text-small">5 secs ago</span>
+                </div>
+            </li>
+    
+            <li class="flex">
+                <img class="avatar avatar-xs" src="https://picsum.photos/500" >
+                <div class="flex flex-col">
+                    <p>Jane Doe Liked your message</p>
+                <span class="gray-dark text-small">5 mins ago</span>
+                </div>
+            </li>
+    
+            <li class="flex">
+                <img class="avatar avatar-xs" src="https://picsum.photos/100" >
+                <div class="flex flex-col">
+                <p>John Doe has sent you a friend request</p>
+                <span class="gray-dark text-small">33 mins ago</span>
+                </div>
+            </li>
+        </ul>
+
+        <h3 class="text-center">Notification list with border</h3>
+
+        <ul class="list list-border bg-white-pure dummy-container">
+            <p class="list-head bg-black white-pure">Notifications</p>
+            <li class="flex">
+                <img class="avatar avatar-xs" src="https://picsum.photos/400" >
+                <div class="flex flex-col">
+                    <p>Alice commented on your post</p>
+                <span class="gray-dark text-small">5 secs ago</span>
+                </div>
+            </li>
+    
+            <li class="flex">
+                <img class="avatar avatar-xs" src="https://picsum.photos/500" >
+                <div class="flex flex-col">
+                    <p>Jane Doe Liked your message</p>
+                <span class="gray-dark text-small">5 mins ago</span>
+                </div>
+            </li>
+    
+            <li class="flex">
+                <img class="avatar avatar-xs" src="https://picsum.photos/100" >
+                <div class="flex flex-col">
+                <p>John Doe has sent you a friend request</p>
+                <span class="gray-dark text-small">33 mins ago</span>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+<!-- Not related to component library, please ignore -->
+<style>
+    .flex-container-vertical{
+        gap: 5rem;
+    }
+    .dummy-container{
+        width: 30rem;
+    }
+</style>
+</html>
