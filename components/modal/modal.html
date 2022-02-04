@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <body>
+    <div class="flex-container-vertical">
+      <h3>Modal</h3>
+      <p>Just two examples of modal component</p>
+
+      <button
+        modal-btn-for="modal-one"
+        class="btn btn-primary-ol modal-open-btn"
+      >
+        Modal 1
+      </button>
+      <button
+        modal-btn-for="modal-two"
+        class="btn btn-primary-ol modal-open-btn"
+      >
+        Modal 2
+      </button>
+    </div>
+
+    <div id="modal-one" class="modal-bg hidden">
+      <div class="modal position-rel">
+        <h2 class="text-large list-head">Modal heading</h2>
+        <i
+          modal-btn-for="modal-one"
+          class="material-icons modal-close-btn position-abs top-0 right-0"
+          >close</i
+        >
+        <p>Modal description</p>
+        <div class="modal-actions">
+          <button
+            modal-btn-for="modal-one"
+            class="btn btn-primary modal-close-btn"
+          >
+            Action 1
+          </button>
+          <button
+            modal-btn-for="modal-one"
+            class="btn btn-secondary modal-close-btn"
+          >
+            Action 2
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-two" class="modal-bg hidden dummy-container">
+      <div class="modal list position-rel">
+        <h2 class="text-large list-head">Modal heading</h2>
+        <i
+          modal-btn-for="modal-two"
+          class="material-icons modal-close-btn position-abs top-0 right-0"
+          >close</i
+        >
+        <div modal-btn-for="modal-two" class="list-scrollable modal-close-btn">
+          <div class="flex-container">
+            <i class="material-icons">person</i>
+            <p class="text-large">user-1</p>
+          </div>
+          <div class="flex-container">
+            <i class="material-icons">person</i>
+            <p class="text-large">user-1</p>
+          </div>
+          <div class="flex-container">
+            <i class="material-icons">person</i>
+            <p class="text-large">user-1</p>
+          </div>
+          <div class="flex-container">
+            <i class="material-icons">person</i>
+            <p class="text-large">user-1</p>
+          </div>
+          <div class="flex-container">
+            <i class="material-icons">person</i>
+            <p class="text-large">user-1</p>
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button
+            modal-btn-for="modal-two"
+            class="btn btn-primary modal-close-btn"
+          >
+            Action 1
+          </button>
+          <button
+            modal-btn-for="modal-two"
+            class="btn btn-secondary modal-close-btn"
+          >
+            Action 2
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- Not related to component library, please ignore -->
+  <style>
+    .flex-container-vertical {
+      margin: 5rem;
+    }
+  </style>
+
+  <script src="modal.js"></script>
+</html>
