@@ -109,6 +109,21 @@ html{
   color: var(--success);
 }
 
+.gray-dark {
+  color: var(--gray-dark);
+}
+
+.bg-white-pure{
+  background-color: var(--white-pure);
+}
+
+.white-pure{
+  color: var(--white-pure);
+}
+
+.bg-white-pure{
+  background-color: var(--white-pure);
+}
 
 h1 {
   font-size: 3.2rem;
@@ -135,7 +150,7 @@ h5 {
 }
 
 h6 {
-  font-size: 11.12rem;
+  font-size: 1.12rem;
 }
 
 
@@ -151,6 +166,13 @@ input[type="radio"] {
   cursor: pointer;
 }
 
+.flex{
+  display: flex;
+  gap: 1rem;
+}
+.flex-col{
+  flex-direction: column;
+}
 .flex-container {
   display: flex;
   justify-content: center;
