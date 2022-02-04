@@ -18,7 +18,7 @@
             <li>Text area</li>
         </ul>
 
-      <form>
+      <!-- <form>
         <label>First name </label>
         <br />
         <input />
@@ -42,6 +42,23 @@
         <input class="input-error" />
         <p class="validation-msg danger">An error occured</p>
         <br />
+      </form> -->
+
+      <form>
+        <label>First name </label>
+        <input />
+
+        <label>Password</label>
+        <input class="input-success" />
+        <p class="validation-msg success">Password is strong</p>
+
+        <label>Last name</label>
+        <input class="input-warn" />
+        <p class="validation-msg warn">Password is weak</p>
+        
+        <label>Password</label>
+        <input class="input-error" />
+        <p class="validation-msg danger">An error occured</p>
       </form>
 
       <h4>Leave a comment</h4>
@@ -78,6 +95,11 @@
   <style>
     .flex-container-vertical {
       margin: 5rem;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
     }
   </style>
 </html>
