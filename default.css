@@ -149,7 +149,6 @@ textarea {
 input[type="checkbox"],
 input[type="radio"] {
   cursor: pointer;
-  accent-color: var(--black);
 }
 
 .flex-container {
