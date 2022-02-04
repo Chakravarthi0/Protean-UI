@@ -1,0 +1,21 @@
+@import url("../../default.css");
+
+.input-error {
+  border: 1px solid var(--danger);
+  outline: 1px solid var(--danger);
+}
+
+.input-warn {
+  border: 1px solid var(--warn);
+  outline: 1px solid var(--warn);
+}
+
+.input-success {
+  border: 1px solid var(--success);
+  outline: 1px solid var(--success);
+}
+
+.validation-msg {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}

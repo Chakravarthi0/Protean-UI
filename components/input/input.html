@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Component</title>
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <div class="flex-container-vertical">
+        <h3>Input Component</h3>
+        <ul>
+            <li>Normal input</li>
+            <li>Input with success validation</li>
+            <li>Input with warning validation</li>
+            <li>Input with error validation</li>
+            <li>Text area</li>
+        </ul>
+
+      <!-- <form>
+        <label>First name </label>
+        <br />
+        <input />
+        <br />
+        <br/>
+
+        <label>Password</label>
+        <br />
+        <input class="input-success" />
+        <p class="validation-msg success">Password is strong</p>
+        <br />
+
+        <label>Last name</label>
+        <br />
+        <input class="input-warn" />
+        <p class="validation-msg warn">Password is weak</p>
+        <br />
+        
+        <label>Password</label>
+        <br />
+        <input class="input-error" />
+        <p class="validation-msg danger">An error occured</p>
+        <br />
+      </form> -->
+
+      <form>
+        <label>First name </label>
+        <input />
+
+        <label>Password</label>
+        <input class="input-success" />
+        <p class="validation-msg success">Password is strong</p>
+
+        <label>Last name</label>
+        <input class="input-warn" />
+        <p class="validation-msg warn">Password is weak</p>
+        
+        <label>Password</label>
+        <input class="input-error" />
+        <p class="validation-msg danger">An error occured</p>
+      </form>
+
+      <h4>Leave a comment</h4>
+      <textarea cols="80" rows="6"></textarea>
+
+      <h4>Radio</h4>
+      <label>
+        <input type="radio" name="r-1" /> button-1
+      </label>
+      <label>
+        <input type="radio" name="r-1" /> button-2
+        
+      </label>
+      <label>
+        <input type="radio" name="r-1" /> button-3
+      </label>
+
+      <h4>Checkbox</h4>
+
+      <label>
+        <input type="checkbox" name="cb-1" />option-1
+    </label>
+    
+    <label>
+        <input type="checkbox" name="cb-1" />option-2     
+    </label>
+    
+    <label>
+          <input type="checkbox" name="cb-1" />option-3
+    </label>
+
+  </body>
+  <!-- Not a part of component library please ignore -->
+  <style>
+    .flex-container-vertical {
+      margin: 5rem;
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  </style>
+</html>
