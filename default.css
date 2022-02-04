@@ -38,42 +38,43 @@
   --white-pure: white;
 
   --box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  --modal-bg: rgba(0, 0, 0, 0.5)
 }
 
-html{
+html {
   font-size: 62.5%;
   background-color: var(--white);
 }
 
-.bg-primary{
+.bg-primary {
   background-color: var(--primary-color);
 }
 
-.bg-secondary{
+.bg-secondary {
   background-color: var(--secondary-color);
 }
 
-.bg-gray{
+.bg-gray {
   background-color: var(--gray);
 }
 
-.bg-black{
+.bg-black {
   background-color: var(--black);
 }
 
-.bg-white{
+.bg-white {
   background-color: var(--white);
 }
 
-.bg-warn{
+.bg-warn {
   background-color: var(--warn);
 }
 
-.bg-danger{
+.bg-danger {
   background-color: var(--danger);
 }
 
-.bg-success{
+.bg-success {
   background-color: var(--success);
 }
 
@@ -113,15 +114,15 @@ html{
   color: var(--gray-dark);
 }
 
-.bg-white-pure{
+.bg-white-pure {
   background-color: var(--white-pure);
 }
 
-.white-pure{
+.white-pure {
   color: var(--white-pure);
 }
 
-.bg-white-pure{
+.bg-white-pure {
   background-color: var(--white-pure);
 }
 
@@ -153,7 +154,6 @@ h6 {
   font-size: 1.12rem;
 }
 
-
 input,
 textarea {
   border: 2px solid var(--black);
@@ -166,11 +166,11 @@ input[type="radio"] {
   cursor: pointer;
 }
 
-.flex{
+.flex {
   display: flex;
   gap: 1rem;
 }
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
 .flex-container {
@@ -188,4 +188,41 @@ input[type="radio"] {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.position-abs {
+  position: absolute;
+}
+
+.position-rel {
+  position: relative;
+}
+
+.position-fix {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.link {
+  color: var(--black);
+  text-decoration: none;
 }
