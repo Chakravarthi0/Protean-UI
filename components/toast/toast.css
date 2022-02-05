@@ -1,0 +1,31 @@
+@import url("../../default.css");
+@import url("../button/button.css");
+@import url("../alert/alert.css");
+
+.toast{
+    background-color: var(--white-pure);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: fixed;
+    bottom: 6rem;
+    margin: 2rem;
+    padding: 2rem 1rem;
+}
+
+.toast-left{
+    left: 5rem;
+}
+
+.toast-center{
+    left: 40%;
+}
+
+.toast-right{
+    right: 5rem;
+}
+
+.toast-close-btn{
+    cursor: pointer;
+}

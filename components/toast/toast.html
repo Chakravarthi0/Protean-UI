@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="toast.css">
+</head>
+<body>
+
+    <div class="flex-container-vertical">
+        <h3>Toast Component</h3>
+        <ul>
+            <li>Toast left</li>
+            <li>Toast Right</li>
+            <li>Toast Center</li>
+            <li>Timed toast - Will disappear after 5 seconds</li>
+        </ul>
+    </div>
+    
+    <div class="flex-container-vertical">
+
+        <button toast-btn-for="toast-one" class="btn btn-primary toast-open-btn">
+            Toast left
+        </button>
+        <button toast-btn-for="toast-two" class="btn btn-primary toast-open-btn">
+            Toast center 
+        </button>
+        <button toast-btn-for="toast-three" class="btn btn-primary toast-open-btn">
+            Toast right
+        </button>
+        <button toast-btn-for="toast-four" class="btn btn-primary toast-open-btn">
+            Timed toast
+        </button>
+
+    </div>
+
+    <div id="toast-one" class="toast toast-left hidden">
+        <p>Lorem ipsum dolor sit, amet consectetur.</p>
+        <button toast-btn-for="toast-one" class="btn btn-dark toast-close-btn">Accept</button>
+        <i
+          toast-btn-for="toast-one"
+          class="material-icons toast-close-btn"
+          >close</i
+        >
+    </div>
+
+    <div id="toast-two" class="toast toast-center hidden">
+        <p>Lorem ipsum dolor sit, amet consectetur.</p>
+        <button toast-btn-for="toast-two" class="btn btn-dark toast-close-btn">Accept</button>
+        <i
+          toast-btn-for="toast-two"
+          class="material-icons toast-close-btn"
+          >close</i
+        >
+    </div>
+
+    <div id="toast-three" class="toast toast-right hidden">
+        <p>Lorem ipsum dolor sit, amet consectetur.</p>
+        <button toast-btn-for="toast-three" class="btn btn-dark toast-close-btn">Accept</button>
+        <i
+          toast-btn-for="toast-three"
+          class="material-icons toast-close-btn"
+          >close</i
+        >
+    </div>
+
+    <div id="toast-four" class="toast toast-left toast-timed hidden">
+        <p>Lorem ipsum dolor sit, amet consectetur.</p>
+        <button toast-btn-for="toast-four" class="btn btn-dark toast-close-btn">Accept</button>
+        <i
+          toast-btn-for="toast-four"
+          class="material-icons toast-close-btn"
+          >close</i
+        >
+    </div>
+
+</body>
+ <!-- Not related to component library, please ignore -->
+ <style>
+    .flex-container-vertical {
+      gap: 5rem;
+      margin: 5rem;
+    }
+  </style>
+<script src="toast.js"></script>
+</html>
