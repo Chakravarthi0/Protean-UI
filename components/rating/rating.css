@@ -1,0 +1,75 @@
+@import url("../../default.css");
+
+.rated {
+  --percent: calc(var(--stars) / 5 * 100%);
+
+  display: inline-block;
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.rated::before {
+  content: "★★★★★";
+  background: linear-gradient(
+    90deg,
+    var(--warn) var(--percent),
+    var(--gray-light) var(--percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rating-group {
+    display: inline-flex;
+  }
+  
+  .rating-input {
+   position: absolute !important;
+   left: -999rem !important;
+  }
+
+  .rating-label {
+    cursor: pointer;
+    padding: 0 0.3rem;
+    font-size: 4rem;
+  }
+
+  .rating-label--half {
+    padding-right: 0;
+    margin-right: -2.4rem;
+    z-index: 2;
+  }
+
+  .rating-icon-star {
+    color: var(--warn);
+  }
+
+  .rating-icon-none {
+    color: var(--white);
+  }
+
+  .rating-input-none:checked + .rating-label .rating-icon-none {
+    color: var(--danger);
+  }
+
+  .rating-input:checked ~ .rating-label .rating-icon-star {
+    color: var(--gray-light);
+  }
+
+  .rating-group:hover .rating-label .rating-icon-star,
+  .rating-group:hover .rating-label--half .rating-icon-star {
+    color: var(--warn);
+  }
+
+  .rating-input:hover ~ .rating-label .rating-icon-star,
+  .rating-input:hover ~ .rating-label--half .rating-icon-star {
+    color: var(--gray-light);
+  }
+
+  .rating-group:hover .rating-input-none:not(:hover) + .rating-label .rating-icon-none {
+     color: var(--white);
+  }
+
+  .rating-input-none:hover + .rating-label .rating-icon-none {
+    color: var(--danger);
+  }
