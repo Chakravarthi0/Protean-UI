@@ -1,0 +1,32 @@
+@import url("../../default.css");
+@import url("../../components/card/card.css");
+
+.grid-container{
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+
+.grid-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media screen and (max-width: 1250px)  {
+    .grid-3{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px)  {
+    .grid-2,
+    .grid-3{
+        grid-template-columns: 1fr;
+    }
+}
