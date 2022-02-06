@@ -1,0 +1,70 @@
+@import url("../../default.css");
+
+.slider-container{
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--pure-white);
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    padding: 2.5rem;
+    width: 40rem;
+}
+
+.slider{
+    position: relative;
+    width: 30rem;
+    height: 1.1rem;
+}
+
+.slider-input{
+    border: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30.3rem;
+    height: 1.1rem;
+    -webkit-appearance: none;
+    background: var(--gray-transparent);
+    z-index: 2;
+}
+
+.slider-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--white);
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px var(--white);
+    border-radius: 50%;
+}
+
+.slider-input::-webkit-slider-thumb:hover{
+    transform: scale(1.3);
+}
+
+.progress-bar{
+    width: 30rem;
+    height: 1.1rem;
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar::-webkit-progress-bar{
+    background-color: var(--white);
+}
+
+.progress-bar::-webkit-progress-value{
+    background: var(--primary-color);
+}
+
+.slider-value{
+    width: 2.8rem;
+    height: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+}

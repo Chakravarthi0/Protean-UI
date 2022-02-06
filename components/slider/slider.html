@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Component</title>
+    <link rel="stylesheet" href="slider.css" />
+  </head>
+  <body>
+      <h3>Slider Component</h3>
+    <div class="flex-container-vertical">
+      <div class="slider-container">
+        <div class="slider">
+          <input
+            class="slider-input"
+            type="range"
+            value="0"
+            min="0"
+            max="100"
+          />
+          <progress class="progress-bar" value="0" min="0" max="100"></progress>
+        </div>
+        <p class="slider-value">0</p>
+      </div>
+
+      <div class="slider-container">
+        <div class="slider">
+          <input
+            class="slider-input"
+            type="range"
+            value="50"
+            min="0"
+            max="100"
+          />
+          <progress
+            class="progress-bar"
+            value="50"
+            min="0"
+            max="100"
+          ></progress>
+        </div>
+        <p class="slider-value">50</p>
+      </div>
+    </div>
+  </body>
+
+   <!-- Not related to component library, please ignore -->
+ <style>
+     h3{
+         text-align: center;
+         margin-top: 5rem;
+         margin-bottom: 15rem;
+     }
+    .flex-container-vertical {
+      gap: 10rem;
+      margin-top: 15rem;
+    }
+  </style>
+
+  <script src="slider.js"></script>
+</html>
