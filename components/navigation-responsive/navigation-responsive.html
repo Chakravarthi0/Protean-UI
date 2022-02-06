@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar Component</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="navigation-responsive.css">
+</head>
+<body>
+    <h3>Responsive Navbar</h3>
+
+    <header class="navbar-container bg-primary white">
+        <h2 class="nav-logo">LOGO</h2>
+        <nav>
+          <ul class="list nav-links-container">
+            <li>
+              <a class="link btn nav-link nav-link-active" href="#">Sign In</a>
+            </li>
+            <li>
+              <a class="link btn nav-link" href="#">Sign Up</a>
+            </li>
+            <li>
+              <a class="link btn nav-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="link btn nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <i
+          class="material-icons hamburger-icon"
+          >menu</i
+        >
+        </nav>
+      </header>
+</body>
+<!-- Not related to component library, please ignore -->
+<style>
+    h3{
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+        text-align: center;
+    }
+  </style>
+<script src="navigation-responsive.js"></script>
+</html>

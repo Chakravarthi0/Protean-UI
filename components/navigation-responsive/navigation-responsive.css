@@ -1,0 +1,53 @@
+@import url("../../default.css");
+@import url("../../components/list/list.css");
+
+.nav-logo {
+  cursor: pointer;
+}
+
+.navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10%;
+  position: relative;
+}
+
+.nav-links-container {
+  display: flex;
+}
+
+.nav-link-active {
+  color: var(--white-pure);
+}
+
+.hamburger-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .nav-links-container {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-links-container.open {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .hamburger-icon {
+    display: block;
+    top: 2.8rem;
+  }
+}
