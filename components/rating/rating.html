@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Component</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="rating.css">
+</head>
+<body>
+
+    <div class="flex-container-vertical">
+        <h2>Rating Component</h2>
+        <ul>
+            <li>
+                Rated component(used to display under product info)
+            </li>
+            <li>
+                Rating component(used to get rating from the user)
+            </li>
+        </ul>
+    </div>
+
+    <div class="flex-container-vertical">
+        <h4>Rated component</h4>
+        <div class="rated" style="--stars: 4.5;">
+        </div>
+        <div class="rated" style="--stars: 4.0;"></div>
+
+        <h4>Rating component</h4>
+    
+        <div id="half-stars-example">
+            <div class="rating-group">
+                <input class="rating-input rating-input-none" checked name="rating" id="rating-0" value="0" type="radio">
+                <label class="rating-label" for="rating-0">&nbsp;</label>
+                <label class="rating-label rating-label--half" for="rating-05"><i class="rating-icon rating-icon-star fa fa-star-half"></i></label>
+                <input class="rating-input" name="rating" id="rating-05" value="0.5" type="radio">
+                <label class="rating-label" for="rating-10"><i class="rating-icon rating-icon-star fa fa-star"></i></label>
+                <input class="rating-input" name="rating" id="rating-10" value="1" type="radio">
+                <label class="rating-label rating-label--half" for="rating-15"><i class="rating-icon rating-icon-star fa fa-star-half"></i></label>
+                <input class="rating-input" name="rating" id="rating-15" value="1.5" type="radio">
+                <label class="rating-label" for="rating-20"><i class="rating-icon rating-icon-star fa fa-star"></i></label>
+                <input class="rating-input" name="rating" id="rating-20" value="2" type="radio">
+                <label class="rating-label rating-label--half" for="rating-25"><i class="rating-icon rating-icon-star fa fa-star-half"></i></label>
+                <input class="rating-input" name="rating" id="rating-25" value="2.5" type="radio">
+                <label class="rating-label" for="rating-30"><i class="rating-icon rating-icon-star fa fa-star"></i></label>
+                <input class="rating-input" name="rating" id="rating-30" value="3" type="radio">
+                <label class="rating-label rating-label--half" for="rating-35"><i class="rating-icon rating-icon-star fa fa-star-half"></i></label>
+                <input class="rating-input" name="rating" id="rating-35" value="3.5" type="radio">
+                <label class="rating-label" for="rating-40"><i class="rating-icon rating-icon-star fa fa-star"></i></label>
+                <input class="rating-input" name="rating" id="rating-40" value="4" type="radio">
+                <label class="rating-label rating-label--half" for="rating-45"><i class="rating-icon rating-icon-star fa fa-star-half"></i></label>
+                <input class="rating-input" name="rating" id="rating-45" value="4.5" type="radio">
+                <label class="rating-label" for="rating-50"><i class="rating-icon rating-icon-star fa fa-star"></i></label>
+                <input class="rating-input" name="rating" id="rating-50" value="5" type="radio">
+            </div>
+        </div>
+    
+    
+        <div id="example-display" class="hidden">
+    
+        </div>
+    </div>
+</body>
+ <!-- Not related to component library, please ignore -->
+ <style>
+    .flex-container-vertical {
+      gap: 5rem;
+      margin: 5rem;
+    }
+  </style>
+<script src="rating.js"></script>
+</html>
