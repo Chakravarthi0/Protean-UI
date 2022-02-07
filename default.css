@@ -38,7 +38,9 @@
   --white-pure: white;
 
   --box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-  --modal-bg: rgba(0, 0, 0, 0.5)
+  --slider-box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+  --modal-bg: rgba(0, 0, 0, 0.5);
+  --gray-transparent:#4a4a4a24;
 }
 
 html {
