@@ -49,83 +49,83 @@ html {
 }
 
 .bg-primary {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 .bg-secondary {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) !important;
 }
 
 .bg-gray {
-  background-color: var(--gray);
+  background-color: var(--gray) !important;
 }
 
 .bg-black {
-  background-color: var(--black);
+  background-color: var(--black) !important;
 }
 
 .bg-white {
-  background-color: var(--white);
+  background-color: var(--white) !important;
 }
 
 .bg-warn {
-  background-color: var(--warn);
+  background-color: var(--warn) !important;
 }
 
 .bg-danger {
-  background-color: var(--danger);
+  background-color: var(--danger) !important;
 }
 
 .bg-success {
-  background-color: var(--success);
+  background-color: var(--success) !important;
 }
 
 .primary {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .secondary {
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
 }
 
 .gray {
-  color: var(--gray);
+  color: var(--gray) !important;
 }
 
 .black {
-  color: var(--black);
+  color: var(--black) !important;
 }
 
 .white {
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .warn {
-  color: var(--warn);
+  color: var(--warn) !important;
 }
 
 .danger {
-  color: var(--danger);
+  color: var(--danger) !important;
 }
 
 .success {
-  color: var(--success);
+  color: var(--success) !important;
 }
 
 .gray-dark {
-  color: var(--gray-dark);
+  color: var(--gray-dark) !important;
 }
 
 .bg-white-pure {
-  background-color: var(--white-pure);
+  background-color: var(--white-pure) !important;
 }
 
 .white-pure {
-  color: var(--white-pure);
+  color: var(--white-pure) !important;
 }
 
 .bg-white-pure {
-  background-color: var(--white-pure);
+  background-color: var(--white-pure) !important;
 }
 
 h1 {
@@ -156,8 +156,7 @@ h6 {
   font-size: 1.12rem;
 }
 
-input,
-textarea {
+.input{
   border: 2px solid var(--black);
   padding: 6px;
   border-radius: 5px;
@@ -196,6 +195,10 @@ input[type="radio"] {
   display: none !important;
 }
 
+.block{
+  display: block !important;
+}
+
 .position-abs {
   position: absolute;
 }
@@ -227,4 +230,11 @@ input[type="radio"] {
 .link {
   color: var(--black);
   text-decoration: none;
+}
+
+.visible {
+  visibility: visible !important;
+}
+.invisible {
+  visibility: hidden !important;
 }
