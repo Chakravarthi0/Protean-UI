@@ -11,6 +11,7 @@
   font-size: 1.6rem;
   min-width: 9rem;
   border: none;
+  color: var(--white);
 }
 
 .btn-sm{
@@ -36,7 +37,7 @@
 }
 
 .btn-primary:hover{
-    background-color: var(--primary-light);
+    background-color: var(--primary-dark);
 }
 
 .btn-secondary{
@@ -44,7 +45,7 @@
 }
 
 .btn-secondary:hover{
-    background-color: var(--secondary-light);
+    background-color: var(--secondary-dark);
 }
 
 .btn-teritary{
@@ -52,15 +53,16 @@
 }
 
 .btn-teritary:hover{
-    background-color: var(--gray-light);
+    background-color: var(--gray-dark);
 }
 
 .btn-warn{
     background-color: var(--warn);
+    color: var(--black-2);
 }
 
 .btn-warn:hover{
-    background-color: var(--warn-light);
+    background-color: var(--warn-dark);
 }
 
 .btn-danger{
@@ -68,7 +70,7 @@
 }
 
 .btn-danger:hover{
-    background-color: var(--danger-light);
+    background-color: var(--danger-dark);
 }
 
 .btn-success{
@@ -76,16 +78,16 @@
 }
 
 .btn-success:hover{
-    background-color: var(--success-light);
+    background-color: var(--success-dark);
 }
 
 .btn-dark{
-    background-color: var(--black);
+    background-color: var(--black-2);
     color: var(--white);
 }
 
 .btn-dark:hover{
-    background-color: var(--black-2);
+    background-color: var(--black);
 }
 
 .btn-link{
@@ -141,6 +143,7 @@
 .btn-warn-ol:hover{
     background-color: var(--warn);
     color: var(--white);
+    color: var(--black-2);
 }
 
 .btn-danger-ol{
