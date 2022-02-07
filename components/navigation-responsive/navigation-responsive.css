@@ -18,6 +18,7 @@
   display: flex;
 }
 
+.nav-link:hover,
 .nav-link-active {
   color: var(--white-pure);
 }
