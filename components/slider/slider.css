@@ -1,7 +1,7 @@
 @import url("../../default.css");
 
 .slider-container{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: var(--slider-box-shadow);
     background-color: var(--pure-white);
     display: flex;
     align-items: center;
