@@ -300,6 +300,13 @@ input[type="radio"] {
   width: 12rem;
 }
 
+.avatar-initial{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
 /* badge */
 
 .badge-container {
@@ -333,7 +340,7 @@ input[type="radio"] {
   right: -1.6rem;
 }
 
-.av-badge {
+.badge-avatar {
   text-align: center;
   background-color: var(--primary-color);
   border-radius: 50%;
@@ -342,21 +349,21 @@ input[type="radio"] {
   border: 2px solid var(--white);
 }
 
-.av-xs-badge {
+.badge-avatar-xs {
   padding: 4.5px;
   height: 5px;
   width: 5px;
   bottom: 3.2px;
 }
 
-.av-sm-badge {
+.badge-avatar-sm {
   padding: 6px;
   height: 5px;
   width: 5px;
   bottom: 6.4px;
 }
 
-.av-md-badge {
+.badge-avatar-md {
   padding: 7px;
   height: 5px;
   width: 5px;
@@ -364,7 +371,7 @@ input[type="radio"] {
   right: 3.2px;
 }
 
-.av-lg-badge {
+.badge-avatar-lg {
   text-align: center;
   background-color: var(--primary-color);
   padding: 8px;
