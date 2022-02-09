@@ -32,7 +32,7 @@
   right: -1.6rem;
 }
 
-.av-badge {
+.badge-avatar {
   text-align: center;
   background-color: var(--primary-color);
   border-radius: 50%;
@@ -41,21 +41,21 @@
   border: 2px solid var(--white);
 }
 
-.av-xs-badge {
+.badge-avatar-xs {
   padding: 4.5px;
   height: 5px;
   width: 5px;
   bottom: 3.2px;
 }
 
-.av-sm-badge {
+.badge-avatar-sm {
   padding: 6px;
   height: 5px;
   width: 5px;
   bottom: 6.4px;
 }
 
-.av-md-badge {
+.badge-avatar-md {
   padding: 7px;
   height: 5px;
   width: 5px;
@@ -63,7 +63,7 @@
   right: 3.2px;
 }
 
-.av-lg-badge {
+.badge-avatar-lg {
   text-align: center;
   background-color: var(--primary-color);
   padding: 8px;

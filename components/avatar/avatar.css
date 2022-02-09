@@ -24,3 +24,10 @@
   height: 12rem;
   width: 12rem;
 }
+
+.avatar-initial{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
