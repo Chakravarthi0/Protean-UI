@@ -43,7 +43,8 @@
   --box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
   --slider-box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
   --modal-bg: rgba(0, 0, 0, 0.5);
-  --gray-transparent:#4a4a4a24;
+  --gray-transparent: #4a4a4a24;
+  --primary-transparent: rgba(80, 168, 235, 0.4);
 }
 
 html {
@@ -83,11 +84,11 @@ html {
   background-color: var(--success) !important;
 }
 
-.bg-purple{
+.bg-purple {
   background-color: var(--purple) !important;
 }
 
-.bg-yellow{
+.bg-yellow {
   background-color: var(--yellow);
 }
 
@@ -95,11 +96,11 @@ html {
   background-color: var(--white-pure) !important;
 }
 
-.purple{
+.purple {
   color: var(--purple) !important;
 }
 
-.yellow{
+.yellow {
   color: var(--yellow);
 }
 
@@ -139,7 +140,6 @@ html {
   color: var(--gray-dark) !important;
 }
 
-
 .bg-white-pure {
   background-color: var(--white-pure) !important;
 }
@@ -176,7 +176,7 @@ h6 {
   font-size: 1.12rem;
 }
 
-.input{
+.input {
   border: 2px solid var(--black);
   padding: 6px;
   border-radius: 5px;
@@ -215,7 +215,7 @@ input[type="radio"] {
   display: none !important;
 }
 
-.block{
+.block {
   display: block !important;
 }
 
@@ -257,4 +257,14 @@ input[type="radio"] {
 }
 .invisible {
   visibility: hidden !important;
+}
+
+.code {
+  background: var(--primary-transparent);
+  color: var(--primary-dark);
+  padding: 3px;
+}
+
+.text-area{
+  width: 100%;
 }
