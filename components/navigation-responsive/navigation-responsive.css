@@ -52,3 +52,27 @@
     top: 2.8rem;
   }
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  min-width: 10rem;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  /* color: black; */
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
