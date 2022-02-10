@@ -3,6 +3,7 @@
 @import url("../alert/alert.css");
 
 .toast {
+  z-index: 1;
   background-color: var(--white-pure);
   display: flex;
   justify-content: center;
