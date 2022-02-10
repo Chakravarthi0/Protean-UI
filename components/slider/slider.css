@@ -7,23 +7,24 @@
     align-items: center;
     border-radius: 5rem;
     padding: 2.5rem;
-    width: 40rem;
+    width: 27rem;
 }
 
 .slider{
     position: relative;
-    width: 30rem;
-    height: 1.1rem;
+    width: 20rem;
+    height: 7px;
 }
 
 .slider-input{
+    border-radius: 5px;
     border: none;
     padding: 0;
     position: absolute;
     left: 0;
     top: 0;
-    width: 30.3rem;
-    height: 1.1rem;
+    width: 20.3rem;
+    height: 7px;
     -webkit-appearance: none;
     background: var(--gray-transparent);
     z-index: 2;
@@ -31,8 +32,8 @@
 
 .slider-input::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: var(--white);
     border: 2px solid var(--primary-color);
     cursor: pointer;
@@ -45,8 +46,8 @@
 }
 
 .progress-bar{
-    width: 30rem;
-    height: 1.1rem;
+    width: 20rem;
+    height: 7px;
     -webkit-appearance: none;
     position: absolute;
     top: 0;
@@ -63,8 +64,8 @@
 }
 
 .slider-value{
-    width: 2.8rem;
-    height: 2rem;
-    margin-left: 1rem;
+    width: 1.4rem;
+    /* height: 1rem; */
+    margin-left: 20.5rem;
     text-align: center;
 }
