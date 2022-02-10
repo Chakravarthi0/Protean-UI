@@ -820,6 +820,12 @@ input[type="radio"] {
   position: relative;
 }
 
+.nav-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .nav-links-container {
   display: flex;
 }
