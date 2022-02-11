@@ -1,0 +1,16 @@
+@import url("../../default.css");
+@import url("../list/list.css");
+
+.footer{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 5rem;
+}
