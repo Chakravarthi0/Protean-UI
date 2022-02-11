@@ -1093,3 +1093,19 @@ input[type="radio"] {
 .toast-close-btn {
   cursor: pointer;
 }
+
+/* footer */
+
+.footer{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-links{
+  display: flex;
+  gap: 5rem;
+}
