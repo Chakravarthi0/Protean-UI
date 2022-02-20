@@ -32,6 +32,12 @@
     border-radius: 50%;
 }
 
+.btn-icon{
+    background-color: var(--white);
+    cursor: pointer;
+    border: none;
+}
+
 .btn-primary{
     background-color: var(--primary-color);
 }
